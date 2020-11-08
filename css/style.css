@@ -1,0 +1,434 @@
+body{
+margin: 0;
+padding: 0;
+}
+/*header start*/
+header{
+ padding: 10px 0;
+}
+.container {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	
+}
+
+.logo {
+	float: left;
+	width: 18%;
+	/*border: 1px solid blue;*/
+}
+	
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	/*border: 1px solid green;*/
+	float: right;
+	margin-top: 10px;
+}
+.menu ul{
+float: right;
+}
+.menu ul li{
+    float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #535D69;
+	text-decoration: none;
+	padding: 0 15px;
+	display: inline-block;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover{
+	color: rgb(255,0,0);
+
+}
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*headedr end*/
+
+/*banner start*/
+
+.banner {
+	background-image: url(../images/buissnessman.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background position: center;
+}
+
+.b_content{
+	margin: 100px 0;
+	max-width: 45%;
+	/*border: 1px solid red;*/
+
+
+}
+
+.b_content h1{
+	margin: 0 0 40px;
+    font-family: sans-serif;
+    font-size: 51px;
+    /*font-weight: 700;*/
+    color: #B4233C;
+    letter-spacing: 1px;
+    line-height: 50px;
+    word-spacing: 1px;
+    text-transform: capitalize;
+
+}
+.b_content p {
+	margin: 0 0 20px;
+	font-family: sans-serif;
+    font-size: 16px;
+    /*font-weight: 400;*/
+    color: black;
+}
+.b_content button {
+	margin-top: 20px;
+	width: 250px;
+	height: 50px;
+	font-family: sans-serif;
+    font-size: 15px;
+    /*font-weight: 400;*/
+    color: white;
+    text-transform: uppercase;
+	background-color: #B4233C;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.b_content button:hover{
+	background-color: white;
+	color: #B4233C;
+	border: 1px solid black; 
+}
+
+/*banner end*/
+
+/*work start*/
+/*work end*/
+.Works {
+	padding: 100px 0;
+}
+
+.container {
+}
+
+.top {
+	margin: 0 auto 50px;
+	width: 70%;
+	/*border: 1px solid red;*/
+	text-align: center;
+
+}
+.top h1{
+	margin: 0 0 30px;
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+
+}
+.top p{
+	font-family: sans-serif;
+    font-size: 15px;
+    color: #505A66;
+    text-transform: uppercase;
+    line-height: 25px;
+
+
+}
+
+
+.bottom {
+	overflow: hidden;
+	/*border: 1px solid red;*/
+
+}
+.single_item{
+	margin-right: 2%;
+	/*margin-right: 11px;*/
+	float: left;
+	text-align: center;
+	width: 28%;
+	/*border: 1px solid blue;*/
+	/*padding: 0 25px;*/
+	padding: 0 2%;
+}
+.single_item:last-child{
+	margin-right: 0;
+}
+.single_item img{
+	width: 40%
+
+
+}
+.single_item p{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+    color: 000000;
+    text-transform: uppercase;
+
+}
+/*video start*/
+
+.video {
+	overflow: hidden;
+}
+
+.container {
+}
+
+.left {
+
+	float: left;
+    width: 49%;
+    /*border: 1px solid red;*/
+}
+.left h1{
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	line-height: 45px;
+}
+.left p{
+	font-family: sans-serif;
+	text-transform: capitalize;
+	line-height: 25px;
+	color: #536C88;
+
+}
+.left button{
+	width: 180px;
+	height: 50px;
+	margin-top: 23px;
+    margin-bottom: 38px;
+     font-size: 15px;
+    /*font-weight: 400;*/
+    color: white;
+    text-transform: uppercase;
+	background-color: #B4233C;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.left button:hover{
+	color: #B4233C;
+	background-color: white;
+	border: 1px solid black;
+	 
+}
+.right {
+	float: right;
+	width: 50%;
+	/*border: 1px solid red;*/
+}
+.right img{
+	width: 100%;
+}
+/*video end*/
+
+/*feature start*/
+.feature {
+	/*border: 1px solid red;*/
+}
+
+.container {
+}
+
+.top {
+	margin-top: 100px;
+    margin-bottom: 100px;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.top h1{
+
+}
+.top p{
+	text-transform: capitalize;
+
+}
+
+.bottom {
+	overflow: hidden;
+    float: left;
+    width: 32%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-right: 21px;}
+.bottom img{
+	/*border: 1px solid red;*/
+	width: 29%; 
+	box-shadow: -5px 9px 11px 4px rgba(0,0,0,0.64);
+}
+
+.bottom h1{
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+
+
+.bottom p{
+	font-family: sans-serif;
+	text-transform: capitalize;
+	line-height: 25px;
+	color: #536C88; 
+}
+.bottom:nth-child(4){
+	margin-right: 0;
+
+}
+
+.bottom:last-child{
+	margin-right: 0;
+}
+
+/*feature end*/
+
+/*feature button end*/
+.features{
+	margin-bottom: 100px;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-top: 100px;
+}
+.last button{
+	width: 180px;
+	height: 50px;
+	/*margin-top: 23px;*/
+    /*margin-bottom: 38px;*/
+     font-size: 15px;
+    /*font-weight: 400;*/
+    color: white;
+    text-transform: uppercase;
+	background-color: #B4233C;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.last button:hover{
+	color: #B4233C;
+	background-color: white;
+	border: 1px solid black;
+}
+
+/*feature button end*/
+
+/*footer start*/
+.footer-container{
+	overflow: hidden;
+	margin-left: 0px;
+	margin-right: 0px;
+	/*border: 1px solid red;*/
+	background-color: black;
+}
+
+
+.start{
+	margin-bottom: 50px;
+	float: left;
+	margin-right: 10px;
+	width: 30%;
+	/*border: 1px solid red;*/
+    background-color: black;
+	color: white;
+	
+
+}
+
+.start h1{
+	margin-top: 60px;
+    margin-bottom: 50px;
+	font-family: sans-serif;
+	/*border: 1px solid red;*/
+	width: 100%;
+	text-transform: uppercase;
+	color: #BC243D;
+}
+
+.start p{
+	font-family: sans-serif;
+	/*border: 1px solid red;*/
+	text-transform: capitalize;
+	color: gray;
+	line-height: 24px;
+}
+
+.start a{
+	display: block;
+	line-height: 25px;
+	color: gray;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.start a:hover{
+	background-color: black;
+	color: red;
+}
+
+.footer_email input{
+	/*margin-top: 16px;*/
+	height: 45px;
+    width: 125px;
+    border-radius: 3px;
+    font-size: 17px;
+    background-color: lightgray;
+    border: none;
+}
+.footer_email button{
+	height: 45px;
+	width: 110px;
+	background-color: #BC243D;
+	font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.footer_email button:hover{
+	color: #BC243D;
+	background-color: white;
+	border: 1px solid red;
+
+}
+
+
+.end{
+	margin-top: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	/*border: 1px solid red;*/
+
+}
+.end h1{
+	margin-top: 0px;
+	width: 100%;
+
+}
+
+
+/*footer end*/
